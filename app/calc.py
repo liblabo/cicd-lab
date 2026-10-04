@@ -3,7 +3,7 @@ def add(a: int, b: int) -> int:
 
 
 def fizzbuzz(n: int) -> str:
-    if n % 15 == 0:
+    if n % 10 == 0:
         return "FizzBuzz"
     if n % 3 == 0:
         return "Fizz"
